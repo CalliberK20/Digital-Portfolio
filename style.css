@@ -1,0 +1,74 @@
+body
+{
+    background-image: url("./Image/Happy\ Halloween.png");
+    font-family: Arial;
+    background-size: 70%;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+} 
+
+header{
+    background-color: white;
+    margin-top: 75%;
+    padding: 40px 0%;
+    padding-bottom: 200px;
+    opacity: 70%;
+}
+
+section{
+    margin-top: 100px;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.723);
+}
+
+div{
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 5% 20%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Art{
+    width : 30%;
+}
+
+/* h1{
+    color: red;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+}
+
+section{
+    background-color: wheat;
+    color: gray;
+    display:flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: black;
+}
+
+div{
+    background-color: red;
+    margin:auto;
+    width: 100px;
+}
+
+li{
+    display: inline-block;
+    margin: 0px 20px;
+} */
