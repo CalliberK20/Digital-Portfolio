@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Portfolio</title>
     <link rel = "stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>Change About me</div>
+        <div>About me</div>
         <p> Hello my name is Karl, and I love to draw and I love to make any forms of art depending on the time and place</p>
     </header>
 
     <section>
         <div>Art</div>
-        <ul>
-            <li>
-                <img class = "Art" src="Arts/Original_Character_Competition_Binondo-Razeph-Karl.png">
-                <img class = "Art" src="Arts/Charmy Fanart.png">
-                <img class = "Art" src="Arts/MangaCover_2.png">
-                <img class = "Art" src="Arts/Melie.png">
-            </li>
+        <div class = "gallery">
+            <img class = "Art" src="Arts/Original_Character_Competition_Binondo-Razeph-Karl.png">
+            <img class = "Art" src="Arts/Charmy Fanart.png">
+            <img class = "Art" src="Arts/MangaCover_2.png">
+            <img class = "Art" src="Arts/Melie.png">
+        </div>
+        <ul class = "gallery">
+            
         </ul>
 
         
@@ -42,14 +43,4 @@
     <section>lower-section</section>
     <footer>footer</footer>
     <img src="Image/Fav Scene.png" class="img-Image"> -->
-</body>
-
-<script>
-     const resizeOps = () => {
-    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
-  };
-
-  resizeOps();
-  window.addEventListener("resize", resizeOps);
-</script>
-</html>    
+</body> 

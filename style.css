@@ -2,7 +2,7 @@ body
 {
     background-image: url("./Image/Happy\ Halloween.png");
     font-family: Arial;
-    background-size: 100%;
+    background-size: cover;
     font-size: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,14 +12,17 @@ body
 
 header{
     background-color: white;
-    margin-top: 75%;
+    position: absolute;
+    top: 100%;
+    /* margin-top: 150%; */
     padding: 40px 0%;
     padding-bottom: 200px;
     opacity: 70%;
 }
 
 section{
-    margin-top: 100px;
+    position: absolute;
+    top: 180%;
     padding-top: 40px;
     background-color: rgba(255, 255, 255, 0.723);
 }
@@ -39,6 +42,16 @@ ul{
 }
 
 .Art{
-    width : 30%;
+    width: 40%;
 }
+
+.gallery{
+    overflow: auto;
+    white-space: nowrap;
+}
+/* @media only screen and (min-width: 720px) {
+    header{
+      margin-top: 150%;
+    }
+  } */
 
