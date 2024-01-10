@@ -2,7 +2,7 @@ body
 {
     background-image: url("./Image/Happy\ Halloween.png");
     font-family: Arial;
-    background-size: 70%;
+    background-size: 100%;
     font-size: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -42,33 +42,3 @@ ul{
     width : 30%;
 }
 
-/* h1{
-    color: red;
-    background-color: black;
-}
-
-header{
-    background-color: black;
-}
-
-section{
-    background-color: wheat;
-    color: gray;
-    display:flex;
-    flex-direction: row;
-}
-
-footer{
-    background-color: black;
-}
-
-div{
-    background-color: red;
-    margin:auto;
-    width: 100px;
-}
-
-li{
-    display: inline-block;
-    margin: 0px 20px;
-} */
