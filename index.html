@@ -22,6 +22,8 @@
                 <img class = "Art" src="Arts/Melie.png">
             </li>
         </ul>
+
+        
     </section>
     <!-- <header>
         <nav>
@@ -41,4 +43,13 @@
     <footer>footer</footer>
     <img src="Image/Fav Scene.png" class="img-Image"> -->
 </body>
-</html>
+
+<script>
+     const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+</script>
+</html>    
