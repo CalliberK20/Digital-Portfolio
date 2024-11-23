@@ -112,6 +112,7 @@ p.Description{
 }
 
 .MangaThumbnail{
+    height: auto;
     max-height: 600px;
 }
 
