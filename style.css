@@ -45,6 +45,7 @@ section{
 
 footer{
     padding: 40px 0px 40px 0px;
+    margin: 200px -100vh 0 -100vh;
     background-color: rgba(63, 63, 63, 0.507);
 }
 
