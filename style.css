@@ -1,23 +1,17 @@
 body
 {
     background-image: url("./Image/Background/Happy\ Halloween.png");
-    font-family: Arial;
     background-size: cover;
-    font-size: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    font-family: Arial;
+    font-size: 30px;
     background-color: black;
     overflow-x: hidden;
+    direction:ltr;
     margin: auto;
 } 
-
-/* .ScreenTest{
-    position: relative;
-  width: 400px;
-  height: 100vh;
-  border: 3px solid #73AD21;
-} */
 
 header{
     background-color: white;
@@ -38,14 +32,19 @@ p{
 section{
     padding: 40px 0px 40px 0px;
     position: relative;
-    margin: 200px -100vh 200px -100vh;
+    margin: 200px auto 200px;
     display: block;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.723);
+}
+
+.TopSection{
+    margin-top: 0px;
 }
 
 footer{
     padding: 40px 0px 40px 0px;
-    margin: 200px -100vh 0 -100vh;
+    margin: 200px auto 0 auto;
     background-color: rgba(63, 63, 63, 0.507);
 }
 
@@ -65,14 +64,24 @@ a{
     font-weight: bold;
 }
 
+.borderTest{
+    position:relative;
+    height: 100vh;
+    border: 5px solid red; 
+    max-width: 100%;
+}
 
 .ArtPic{
-    justify-content: center;
+    margin: 50px 10px 0px 10px;
+    justify-content:left;
     display: flex;
     gap: 20px;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    
 }
+
 
 .ContentGallary{
     justify-content: center;
@@ -93,8 +102,16 @@ a{
     background-color: inherit;
 }
 
+.GameThumbnail{
+    height: 300px;
+}
+
 .Pic{
     border-radius: 5%;
+}
+
+.MangaThumbnail{
+    height: 400px;
 }
 
 p.Title{
@@ -108,13 +125,8 @@ p.Description{
 }
 
 .Art{
-    max-height: 450px;
+    max-height: 350px;
     border-radius: 5%;
-}
-
-.MangaThumbnail{
-    height: auto;
-    max-height: 600px;
 }
 
 .LogoIconButtons{
@@ -126,6 +138,25 @@ p.Description{
 }
 
 .gallery{
-    margin: 50px -100vh 0px -100vh;
+    margin: 50px auto 0px auto;
 }
+
+@media screen and (width < 640px)
+{
+    body{
+        font-size: 20px;
+    }
+
+    .GameThumbnail{
+        height: 250px;
+    }
+}
+/* 
+@media screen and (max-width: 640px)
+{
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+} */
 
