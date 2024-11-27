@@ -1,3 +1,12 @@
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(ARCADECLASSIC.TTF);
+ }
+ 
+ .font {
+    font-family: myFirstFont;
+ } */
+
 body
 {
     font-family: "Ponnala", system-ui;
