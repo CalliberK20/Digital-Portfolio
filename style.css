@@ -1,11 +1,14 @@
-/* @font-face {
-    font-family: myFirstFont;
-    src: url(ARCADECLASSIC.TTF);
+ @font-face {
+    font-family: FontBold;
+    src: url(./Fonts/FiraSans-SemiBold.ttf);
+
  }
- 
- .font {
-    font-family: myFirstFont;
- } */
+
+ @font-face {
+    font-family: FontLight;
+    src: url(./Fonts/FiraSans-Regular.ttf);
+
+ }
 
 body
 {
@@ -78,7 +81,7 @@ a{
 
 .content{
     text-align: center;
-    font-weight: bold;
+    font-family: FontBold;
 }
 
 .borderTest{
@@ -106,7 +109,8 @@ a{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 40px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
+    gap: 50px;
 }
 
 .ButtonPlacement{
@@ -133,12 +137,13 @@ a{
 
 p.Title{
     font-size: 20px;
-    font-weight: bold;
+    font-family: FontBold;
 }
 
 p.Description{
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: FontLight;
 }
 
 .Art{
@@ -147,11 +152,23 @@ p.Description{
 }
 
 .LogoIconButtons{
+    filter: invert(1);
     margin: auto;
     justify-content: center;
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+.LogoLink{
+    width: 35px;height: 35px;
+}
+
+.ContentInformationColor{
+    font-size: 20px;
+    text-align: center;
+    font-family: FontBold;
+    color: white;
 }
 
 .gallery{
@@ -165,7 +182,11 @@ p.Description{
     }
 
     .GameThumbnail{
-        height: 250px;
+        height: 240px;
+    }
+
+    p.Description{
+        font-size: 13px;
     }
 }
 /* 
