@@ -95,13 +95,12 @@ a{
     padding-top: 50px;
     justify-content: center;
     display: flex;
-    align-items: center;
     margin: auto;
 }
 
 .gap{
     width: auto;
-    height: 160px;
+    height: auto;
     border: 1px solid transparent; 
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -159,6 +158,18 @@ p.Description{
     position: relative;
     font-size: 25px;
     font-family: FontLight;
+}
+
+ol{
+    list-style-type: inherit;
+    padding-right: 20px;
+}
+
+li{
+    font-family: FontLight;
+    font-size: 20px;
+    padding-top: 13px;
+    white-space: pre;
 }
 
 .Art{
