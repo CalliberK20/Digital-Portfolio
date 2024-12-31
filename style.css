@@ -214,6 +214,10 @@ li{
     p.Description{
         font-size: 13px;
     }
+
+    li{
+        font-size: 13px;
+    }
 }
 /* 
 @media screen and (max-width: 640px)
