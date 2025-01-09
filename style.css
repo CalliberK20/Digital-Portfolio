@@ -84,6 +84,14 @@ a{
     font-family: FontBold;
 }
 
+.contentTitle{
+    padding-top: 20px;
+}
+
+.contentList{
+    font-size: 22px;
+}
+
 .borderTest{
     position:relative;
     height: 100vh;
@@ -168,7 +176,7 @@ ol{
 li{
     font-family: FontLight;
     font-size: 20px;
-    padding-top: 13px;
+    padding-top: 10px;
     white-space: pre;
 }
 
@@ -204,7 +212,7 @@ li{
 @media screen and (width < 640px)
 {
     body{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .GameThumbnail{
@@ -216,7 +224,16 @@ li{
     }
 
     li{
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    ol{
+        padding-left: 22px;
+        padding-right: 10px;
+    }
+
+    .contentList{
+        font-size: 15px;
     }
 }
 /* 
